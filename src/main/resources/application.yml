@@ -1,0 +1,7 @@
+server:
+  port: 9595
+  servlet:    session:      cookie:        http-only: true
+      timeout: 5
+      
+spring:  application:    name: hotel-api
+  datasource:    platform: h2
